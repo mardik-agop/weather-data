@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  color: #333;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.login {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  display: flex;
+}
+
+.login .loginContainer {
+  padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: steelblue;
+  border-radius: 30px;
+}
+
+.login .loginContainer label {
+  color: #333;
+  margin: 14px 0;
+  display: block;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.login .loginContainer input {
+  width: 100%;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  /* background: rgba(255, , 255, 0.1); */
+  color: #333;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: #fff;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: red;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: red;
+}
+
+.login .loginContainer .errorMsg {
+  color: red;
+  font-size: 16px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background-color: steelblue;
+}
+
+.hero nav {
+  background:steelblue;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero nav h2 {
+  color: #fff;
+}
+
+.hero nav button {
+  width: 86px;
+  padding: 8px 0;
+  background: #fff;
+}
+
+/* *********************************************** */
+
+.search-container{
+  width: 40%;
+  text-align: center;
+  margin:auto;
+  box-shadow: 0px 0px 10px -3px #000000;
+  margin-bottom: 50px;
+}
+
+.search-container input{
+  padding: 10px;
+  width: 100%;
+  outline: 0;
+  border: 0;
+}
+
+.weather-box{
+  width: 50%;
+  margin-top: 50px;
+  /* background-color: blue; */
+  box-shadow: 0px 0px 10px -3px #000000;
+  margin:auto;
+  box-shadow: 0px 0px 10px -3px #000000;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.temp, .sky, .feels, .city, .hum{
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  font-size: 30px;
+}
+
+h3{
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  height: 100px;
+  font-size: 30px;
+}
